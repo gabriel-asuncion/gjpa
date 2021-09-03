@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Programming Language</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="icon" href="../images/favicon.png">
+  <link href="../css/fontawesome.css" rel="stylesheet">
+  <link href="../css/brands.css" rel="stylesheet">
+  <link href="../css/solid.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/carousel.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
+
+
+</head>
+
+<body>
+  <div id="body-wrapper" class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar" class="active">
+      <div class="sticky-top">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="btn btn-primary">
+          </button>
+        </div>
+        <div class="img bg-wrap text-center py-4" style="background-image: url(../images/bg_1.png);">
+          <div class="user-logo">
+            <div class="img" style="background-image: url(../images/logo.png);"></div>
+            <h3>Gabriel Asuncion</h3>
+          </div>
+        </div>
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="../index.html"><span class="fa fa-home mr-3"></span> Home</a>
+          </li>
+          <li>
+            <a href="pl.html"><span class="fas fa-code mr-3 notif"></span>Programming Language</a>
+          </li>
+          <li class="active">
+            <a href="#"><span class="fas fa-pencil-ruler mr-3"></span>User Interface</a>
+          </li>
+          <li>
+            <a href="ms.html"><span class="fas fa-file mr-3"></span>Microsoft Suite</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5 pt-5">
+      <div class="container marketing">
+
+        <hr class="featurette-divider">
+        <div class="row featurette first-page">
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">GITHCM QR Code Generator.</h2>
+            <p class="lead">A mini project for Glory in the Highest Christian Ministry(GITCHM) to Automate Contact tracing form through QR code.</p>
+            <p class="lead"><i class="pl_icon fab fa-html5"> </i><i class="pl_icon fab fa-bootstrap"> </i><i class="pl_icon fab fa-android"></i></p>
+
+            <a href="https://gitchm.github.io/qr-code/" target="_blank" class="btn btn-outline-primary">View Website</a>
+            <a href=" https://github.com/gitchm/qr-code" target="_blank" class="btn btn-outline-info">View Repo</a>
+          </div>
+          <div data-aos="fade-right" data-aos-duration="1001" data-aos-delay="400" data-aos-once="true" class="col-md-5 order-md-1">
+
+              <img src="https://i.pinimg.com/originals/ad/4a/b2/ad4ab2b9dfc53bc9bdde7e17fdf7313b.jpg" alt="" width="500" height="500">
+
+          </div>
+        </div>
+
+        <hr id="first-content" class="featurette-divider">
+        <div class="row featurette first-page">
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Future.</h2>
+            <p class="lead">Lorem Ipsum.</p>
+            <p class="lead"><i class="pl_icon fab fa-html5"> </i><i class="fab fa-bootstrap"></i></p>
+
+            <a href="#" target="_blank" class="btn btn-outline-primary">View Website</a>
+            <a href="#" target="_blank" class="btn btn-outline-info">View Repo</a>
+          </div>
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" class="col-md-5 order-md-1">
+
+              <img src="https://programming-examples.com/wp-content/uploads/sites/3/2018/08/chris-ried-512801-unsplash-768x513.jpg" alt="" width="500" height="500">
+
+          </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+
+    <!--AOS SCRIPT-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--Loader-->
+    <script>
+      window.onload = function() {
+        document.getElementById("loader").style.display = 'none';
+      };
+    </script>
+    <!--  copy clipboard  -->
+    <script>
+      $('#tooltip-phone').tooltip('enable')
+      var myCarousel = document.querySelector('#first-carousel')
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 2000,
+        wrap: false
+      })
+
+      function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+      }
+    </script>
+
+</body>
+
+</html>
